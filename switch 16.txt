@@ -1,0 +1,22 @@
+#include <stdio.h>
+main(){
+ intch;float v;
+ primtf("1km to m 2.m to cm 3.cm tomm 4.mto km 5.cm to m 6.mmto cm\n");
+ scanf("%d",&ch);
+ scanf("%f",&v);
+switch(ch){
+  case1:printf("%.2f km=%.2f m\n",v,v*1000);
+break;
+  case2:printf("%.2f m=%.2fcm\n",v,v*100);
+break;
+  case3:printf("%.2f cm=%.2fmm\n",v,v*10);
+break;
+  case4:printf(("%.2f m=%.2fkm\n',v,v/1000);
+break;
+  case5:printf("% 2f cm=%.2fm/n",v,v/100);
+break;
+  case6:printf("%.2fmm=%.2f cm\n",v,v/10);
+break;
+  default:printf("invalid choice");
+}
+}
